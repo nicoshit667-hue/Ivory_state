@@ -1,0 +1,93 @@
+{
+ "id": "supercar",
+ "materials": [
+  {
+   "name": "Cheetah_Body",
+   "mode": "opaque",
+   "color": [
+    0.01347566582262516,
+    0.1611056625843048,
+    0.2910693287849426,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.8499999940395355
+  },
+  {
+   "name": "Cheetah_Textures",
+   "mode": "opaque",
+   "color": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "base": "Cheetah_Textures_base_1k.jpg",
+   "normal": "Cheetah_Textures_normal_1k.jpg",
+   "ms": "Cheetah_Textures_ms_1k.png"
+  },
+  {
+   "name": "Cheetah_Black",
+   "mode": "opaque",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.09157311916351318
+  },
+  {
+   "name": "Cheetah_Chrome",
+   "mode": "opaque",
+   "color": [
+    0.9292964935302734,
+    0.9292964935302734,
+    0.9292964935302734,
+    1.0
+   ],
+   "metallic": 0.8999999761581421,
+   "smoothness": 0.8999999985098839
+  },
+  {
+   "name": "Cheetah_Plastic",
+   "mode": "opaque",
+   "color": [
+    0.012917587533593178,
+    0.012917587533593178,
+    0.012917587533593178,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "ms": "Cheetah_Plastic_ms_1k.png"
+  },
+  {
+   "name": "Cheetah_Glass",
+   "mode": "glass",
+   "color": [
+    0.11759260296821594,
+    0.11759260296821594,
+    0.11759260296821594,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5
+  },
+  {
+   "name": "Cheetah_Glass_Red",
+   "mode": "glass",
+   "color": [
+    0.7401062846183777,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "school_bus",
+ "materials": [
+  {
+   "name": "schoolbus_tex",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "schoolbus_tex_base_1k.jpg",
+   "normal": "schoolbus_tex_normal_1k.jpg",
+   "ms": "schoolbus_tex_ms_1k.png"
+  },
+  {
+   "name": "optics_tex.005",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "optics_tex_005_base_1k.jpg"
+  },
+  {
+   "name": "decals_tex.002",
+   "mode": "cutout",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "decals_tex_002_base_1k.png"
+  },
+  {
+   "name": "schoolbus_glass",
+   "mode": "glass",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "schoolbus_glass_base_1k.png",
+   "normal": "schoolbus_glass_normal_1k.jpg",
+   "ms": "schoolbus_glass_ms_1k.png"
+  }
+ ]
+}

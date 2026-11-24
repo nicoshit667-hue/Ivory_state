@@ -1,0 +1,56 @@
+{
+ "id": "coupe",
+ "materials": [
+  {
+   "name": "Body.001",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Body_001_base_1k.jpg",
+   "ms": "Body_001_ms_1k.png"
+  },
+  {
+   "name": "Optics.001",
+   "mode": "opaque",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Optics_001_base_1k.jpg"
+  },
+  {
+   "name": "Glass.001",
+   "mode": "glass",
+   "color": [
+    0.10588236153125763,
+    0.10588236153125763,
+    0.10588236153125763,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844
+  },
+  {
+   "name": "Wheel.001",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844
+  }
+ ]
+}

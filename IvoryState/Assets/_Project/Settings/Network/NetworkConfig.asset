@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af2c75939abbff4e96c5f155b5739a7, type: 3}
+  m_Name: NetworkConfig
+  m_EditorClassIdentifier: IvoryState.Core::IvoryState.Core.Networking.NetworkConfig
+  _defaultAddress: molecule-inactive.tun.ply.gg:47126
+  _port: 7770
+  _maxPlayers: 100
+  _tickRate: 30
+  _maxVisiblePlayers: 28
+  _nakamaPort: 7350
+  _nakamaServerKey: ivory-dev-key
+  _clientTargetFrameRate: 60
+  _editorLaunchMode: 0
+  _playerPrefab: {fileID: 7230996021541816605, guid: d4c1fb4f4b4232d47bac6a26d18de2c4, type: 3}
+  _vehiclePrefab: {fileID: 7993531041426917492, guid: a90b1fcb4f951314fbeef477e6d4e565, type: 3}
+  _spawnCenter: {x: -184.3, y: 1.1, z: 67.7}
+  _spawnRadius: 6

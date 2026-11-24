@@ -1,0 +1,34 @@
+# graphify : on ne garde que le code (analyse syntaxique gratuite, sans tokens).
+# Moteur Unity, assets, builds, tiers et documents exclus.
+IvoryState/Library/
+IvoryState/Temp/
+IvoryState/Logs/
+IvoryState/obj/
+IvoryState/Builds/
+IvoryState/UserSettings/
+IvoryState/Packages/
+IvoryState/ProjectSettings/
+IvoryState/Assets/_Project/ThirdParty/
+IvoryState/Assets/_Project/Art/
+IvoryState/Assets/_Project/Scenes/
+IvoryState/Assets/_Project/Prefabs/
+IvoryState/Assets/_Project/Settings/
+IvoryState/Assets/Settings/
+IvoryState/Assets/Plugins/
+IvoryState/Assets/Resources/
+IvoryState/Assets/TextMesh Pro/
+IvoryState/Assets/FishNet/
+IvoryState/Assets/DefaultNetworkObjects/
+IvoryState/*.csproj
+IvoryState/*.sln
+**/graphify-out/
+loadtests/
+docs/
+*.md
+*.meta
+*.png
+*.jpg
+*.asset
+*.unity
+*.prefab
+*.mat

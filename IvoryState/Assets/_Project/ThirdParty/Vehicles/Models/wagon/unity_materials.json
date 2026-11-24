@@ -1,0 +1,58 @@
+{
+ "id": "wagon",
+ "materials": [
+  {
+   "name": "Body.009",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Body_009_base_1k.jpg",
+   "ms": "Body_009_ms_1k.png"
+  },
+  {
+   "name": "Optics.009",
+   "mode": "opaque",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Optics_009_base_1k.jpg"
+  },
+  {
+   "name": "Glass.009",
+   "mode": "glass",
+   "color": [
+    0.10588236153125763,
+    0.10588236153125763,
+    0.10588236153125763,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844
+  },
+  {
+   "name": "Wheel.008",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Wheel_008_base_1k.jpg",
+   "ms": "Wheel_008_ms_1k.png"
+  }
+ ]
+}

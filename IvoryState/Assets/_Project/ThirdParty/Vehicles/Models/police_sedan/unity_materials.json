@@ -1,0 +1,89 @@
+{
+ "id": "police_sedan",
+ "materials": [
+  {
+   "name": "police_sedan",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "police_sedan_base_1k.jpg",
+   "normal": "police_sedan_normal_1k.jpg",
+   "ms": "police_sedan_ms_1k.png"
+  },
+  {
+   "name": "police_decal",
+   "mode": "cutout",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "police_decal_base_1k.png"
+  },
+  {
+   "name": "optics_tex.003",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "optics_tex_003_base_1k.jpg"
+  },
+  {
+   "name": "police_glass",
+   "mode": "glass",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "police_glass_base_1k.png",
+   "normal": "police_glass_normal_1k.jpg",
+   "ms": "police_glass_ms_1k.png"
+  },
+  {
+   "name": "police_glass.001",
+   "mode": "glass",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "police_glass_001_base_1k.png",
+   "normal": "police_glass_001_normal_1k.jpg",
+   "ms": "police_glass_001_ms_1k.png"
+  },
+  {
+   "name": "taxi_optics",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "taxi_optics_base_1k.jpg"
+  }
+ ]
+}

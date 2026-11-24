@@ -1,0 +1,76 @@
+{
+ "id": "fire_truck",
+ "materials": [
+  {
+   "name": "firetruck",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "firetruck_base_1k.jpg",
+   "normal": "firetruck_normal_1k.jpg",
+   "ms": "firetruck_ms_1k.png"
+  },
+  {
+   "name": "firetruck_decals",
+   "mode": "cutout",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "firetruck_decals_base_1k.png"
+  },
+  {
+   "name": "optics_tex.001",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 1.0,
+   "base": "optics_tex_001_base_1k.jpg"
+  },
+  {
+   "name": "firetruck_glass",
+   "mode": "glass",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "firetruck_glass_base_1k.png",
+   "normal": "firetruck_glass_normal_1k.jpg",
+   "ms": "firetruck_glass_ms_1k.png"
+  },
+  {
+   "name": "firetruck_glass.001",
+   "mode": "glass",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "firetruck_glass_001_base_1k.png",
+   "normal": "firetruck_glass_001_normal_1k.jpg",
+   "ms": "firetruck_glass_001_ms_1k.png"
+  }
+ ]
+}

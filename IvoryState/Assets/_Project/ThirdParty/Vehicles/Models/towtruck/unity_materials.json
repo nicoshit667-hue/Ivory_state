@@ -1,0 +1,63 @@
+{
+ "id": "towtruck",
+ "materials": [
+  {
+   "name": "towtruck",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "towtruck_base_1k.jpg",
+   "normal": "towtruck_normal_1k.jpg",
+   "ms": "towtruck_ms_1k.png"
+  },
+  {
+   "name": "optics_tex.006",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 1.0,
+   "base": "optics_tex_006_base_1k.jpg"
+  },
+  {
+   "name": "towtruck_glass",
+   "mode": "glass",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "towtruck_glass_base_1k.png",
+   "normal": "towtruck_glass_normal_1k.jpg",
+   "ms": "towtruck_glass_ms_1k.png"
+  },
+  {
+   "name": "towtruck_glass.001",
+   "mode": "glass",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "towtruck_glass_001_base_1k.png",
+   "normal": "towtruck_glass_001_normal_1k.jpg",
+   "ms": "towtruck_glass_001_ms_1k.png"
+  }
+ ]
+}

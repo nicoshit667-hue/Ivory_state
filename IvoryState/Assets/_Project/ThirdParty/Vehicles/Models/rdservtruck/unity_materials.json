@@ -1,0 +1,76 @@
+{
+ "id": "rdservtruck",
+ "materials": [
+  {
+   "name": "cervicetruck_tex",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "cervicetruck_tex_base_1k.jpg",
+   "normal": "cervicetruck_tex_normal_1k.jpg",
+   "ms": "cervicetruck_tex_ms_1k.png"
+  },
+  {
+   "name": "decals_tex.001",
+   "mode": "cutout",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "decals_tex_001_base_1k.png"
+  },
+  {
+   "name": "optics_tex.004",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.45947933197021484,
+   "base": "optics_tex_004_base_1k.jpg"
+  },
+  {
+   "name": "glass_tex.001",
+   "mode": "glass",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "glass_tex_001_base_1k.png",
+   "normal": "glass_tex_001_normal_1k.jpg",
+   "ms": "glass_tex_001_ms_1k.png"
+  },
+  {
+   "name": "glass_tex.002",
+   "mode": "glass",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "glass_tex_002_base_1k.png",
+   "normal": "glass_tex_002_normal_1k.jpg",
+   "ms": "glass_tex_002_ms_1k.png"
+  }
+ ]
+}

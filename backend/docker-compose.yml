@@ -1,0 +1,68 @@
+# Backend Ivory State : Nakama (comptes, portefeuille, profils) + PostgreSQL.
+#
+# Démarrage : utiliser   powershell -File up.ps1
+#   (réutilise un Nakama déjà en route sur ce PC, par exemple celui d'une autre copie du projet,
+#    au lieu de lancer une deuxième pile qui le ferait tomber).
+# Arrêt :
+#   docker compose down          (n'arrête QUE les conteneurs de cette copie ; données dans "pgdata")
+#
+# Ports :
+#   7350  API HTTP utilisée par les téléphones (authentification) et le serveur de jeu (RPC)
+#   7351  console d'administration Nakama, accessible uniquement depuis ce PC (127.0.0.1)
+
+# Nom de projet propre à cette copie. Sans lui, Compose prend le nom du dossier (« backend »),
+# identique dans C:\Users\david\Downloads\ivory\backend : un « up » ou un « down » lancé ici
+# recréait ou arrêtait le Nakama de l'autre copie (backend-nakama-1).
+name: ivory-onedrive-backend
+
+services:
+  postgres:
+    image: postgres:16.16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: nakama
+      POSTGRES_USER: nakama
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nakama -d nakama"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  nakama:
+    image: heroiclabs/nakama:3.41.0
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    entrypoint:
+      - "/bin/sh"
+      - "-ecx"
+      - >
+        /nakama/nakama migrate up --database.address nakama:${POSTGRES_PASSWORD}@postgres:5432/nakama &&
+        exec /nakama/nakama
+        --name ivory1
+        --database.address nakama:${POSTGRES_PASSWORD}@postgres:5432/nakama
+        --logger.level INFO
+        --session.token_expiry_sec 86400
+        --session.encryption_key ${SESSION_ENCRYPTION_KEY}
+        --session.refresh_encryption_key ${SESSION_REFRESH_KEY}
+        --socket.server_key ${NAKAMA_SERVER_KEY}
+        --runtime.http_key ${NAKAMA_HTTP_KEY}
+        --console.username admin
+        --console.password ${CONSOLE_PASSWORD}
+    volumes:
+      - ./modules:/nakama/data/modules
+    ports:
+      - "7350:7350"
+      - "127.0.0.1:7351:7351"
+    healthcheck:
+      test: ["CMD", "/nakama/nakama", "healthcheck"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:

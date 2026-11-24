@@ -1,0 +1,48 @@
+{
+ "id": "garbage_truck",
+ "materials": [
+  {
+   "name": "garbagetruck_tex",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "garbagetruck_tex_base_1k.jpg",
+   "normal": "garbagetruck_tex_normal_1k.jpg",
+   "ms": "garbagetruck_tex_ms_1k.png"
+  },
+  {
+   "name": "optics_tex.002",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 1.0,
+   "base": "optics_tex_002_base_1k.jpg"
+  },
+  {
+   "name": "garbagetruck_glass",
+   "mode": "glass",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "garbagetruck_glass_base_1k.png",
+   "normal": "garbagetruck_glass_normal_1k.jpg",
+   "ms": "garbagetruck_glass_ms_1k.png"
+  }
+ ]
+}

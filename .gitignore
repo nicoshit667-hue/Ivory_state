@@ -1,0 +1,69 @@
+# --- Unity (projet IvoryState/) ---
+IvoryState/[Ll]ibrary/
+IvoryState/[Tt]emp/
+IvoryState/[Oo]bj/
+IvoryState/[Bb]uild/
+IvoryState/[Bb]uilds/
+IvoryState/[Ll]ogs/
+IvoryState/[Uu]ser[Ss]ettings/
+IvoryState/[Mm]emoryCaptures/
+IvoryState/[Rr]ecordings/
+
+# Fichiers générés par les IDE
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+sysinfo.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Résultats des tests de charge (tools/loadtest.ps1)
+loadtests/
+
+# Secrets du backend (générés par backend/setup-keys.ps1)
+backend/.env
+
+# Fichiers temporaires de la compilation native Android (CMake)
+IvoryState/.utmp/
+
+# graphify : graphe de connaissances local (reconstruit par le hook git) et son cache
+graphify-out/
+IvoryState/Assets/_Project/Scripts/graphify-out/
+IvoryState/Assets/_Project/Scripts/graphify-out.meta
+
+# Maillage de la ville généré par CityGenerator (1,4 Go, > limite GitHub) : à régénérer depuis l'éditeur
+IvoryState/Assets/_Project/Art/Generated/CityMeshes.asset
+
+# Blender : sauvegardes automatiques, caches Python, logs
+*.blend1
+__pycache__/
+*.pyc
+tools/blender/catalog_build.log
+
+# Archives d'assets téléchargées (sources brutes, importées ensuite dans Assets)
+_downloads/
+
+# Données brutes OpenStreetMap et relief (tools/citylayout/fetch_osm.py)
+tools/citylayout/raw/

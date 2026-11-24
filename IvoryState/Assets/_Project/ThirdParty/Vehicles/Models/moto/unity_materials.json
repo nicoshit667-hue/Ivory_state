@@ -1,0 +1,94 @@
+{
+ "id": "moto",
+ "materials": [
+  {
+   "name": "plastic",
+   "mode": "opaque",
+   "color": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "base": "plastic_base_1k.jpg",
+   "normal": "plastic_normal_1k.jpg",
+   "ms": "plastic_ms_1k.png"
+  },
+  {
+   "name": "caucho",
+   "mode": "opaque",
+   "color": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "base": "caucho_base_1k.jpg",
+   "normal": "caucho_normal_1k.jpg",
+   "ms": "caucho_ms_1k.png"
+  },
+  {
+   "name": "plastic_0",
+   "mode": "opaque",
+   "color": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "base": "plastic_0_base_1k.jpg",
+   "normal": "plastic_0_normal_1k.jpg",
+   "ms": "plastic_0_ms_1k.png"
+  },
+  {
+   "name": "cobre",
+   "mode": "opaque",
+   "color": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "base": "cobre_base_1k.jpg",
+   "normal": "cobre_normal_1k.jpg",
+   "ms": "cobre_ms_1k.png"
+  },
+  {
+   "name": "material",
+   "mode": "opaque",
+   "color": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "base": "material_base_1k.jpg",
+   "normal": "material_normal_1k.jpg",
+   "ms": "material_ms_1k.png"
+  },
+  {
+   "name": "GLASS",
+   "mode": "glass",
+   "color": [
+    0.010031281970441341,
+    0.2845707833766937,
+    0.2545264661312103,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "normal": "GLASS_normal_1k.jpg",
+   "ms": "GLASS_ms_1k.png"
+  }
+ ]
+}

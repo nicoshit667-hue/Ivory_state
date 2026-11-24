@@ -1,0 +1,58 @@
+{
+ "id": "sedan",
+ "materials": [
+  {
+   "name": "Body.006",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Body_006_base_1k.jpg",
+   "ms": "Body_006_ms_1k.png"
+  },
+  {
+   "name": "Optics.006",
+   "mode": "opaque",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Optics_006_base_1k.jpg"
+  },
+  {
+   "name": "Glass.006",
+   "mode": "glass",
+   "color": [
+    0.10588236153125763,
+    0.10588236153125763,
+    0.10588236153125763,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844
+  },
+  {
+   "name": "Wheel.005",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Wheel_005_base_1k.jpg",
+   "ms": "Wheel_005_ms_1k.png"
+  }
+ ]
+}

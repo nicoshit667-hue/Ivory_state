@@ -1,0 +1,74 @@
+{
+ "id": "taxi",
+ "materials": [
+  {
+   "name": "taxi",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "taxi_base_1k.jpg",
+   "normal": "taxi_normal_1k.jpg",
+   "ms": "taxi_ms_1k.png"
+  },
+  {
+   "name": "taxi_decal",
+   "mode": "cutout",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "taxi_decal_base_1k.png"
+  },
+  {
+   "name": "taxi_optics.001",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "taxi_optics_001_base_1k.jpg"
+  },
+  {
+   "name": "taxi_glass",
+   "mode": "glass",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "taxi_glass_base_1k.png",
+   "normal": "taxi_glass_normal_1k.jpg",
+   "ms": "taxi_glass_ms_1k.png"
+  },
+  {
+   "name": "taxi_optics",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "taxi_optics_base_1k.jpg"
+  }
+ ]
+}

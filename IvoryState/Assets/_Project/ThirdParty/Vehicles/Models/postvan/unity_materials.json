@@ -1,0 +1,59 @@
+{
+ "id": "postvan",
+ "materials": [
+  {
+   "name": "postvan",
+   "mode": "opaque",
+   "color": [
+    0.1764705926179886,
+    0.1764705926179886,
+    0.1764705926179886,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.10352647304534912,
+   "base": "postvan_base_1k.jpg",
+   "ms": "postvan_ms_1k.png"
+  },
+  {
+   "name": "optics_tex.007",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 1.0,
+   "base": "optics_tex_007_base_1k.jpg"
+  },
+  {
+   "name": "postvan_glass",
+   "mode": "glass",
+   "color": [
+    0.1764705926179886,
+    0.1764705926179886,
+    0.1764705926179886,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.10352647304534912,
+   "base": "postvan_glass_base_1k.png",
+   "ms": "postvan_glass_ms_1k.png"
+  },
+  {
+   "name": "postvan_decal",
+   "mode": "cutout",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "postvan_decal_base_1k.png"
+  }
+ ]
+}

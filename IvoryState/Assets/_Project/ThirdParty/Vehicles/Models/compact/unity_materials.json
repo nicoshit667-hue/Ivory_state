@@ -1,0 +1,58 @@
+{
+ "id": "compact",
+ "materials": [
+  {
+   "name": "Body",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Body_base_1k.jpg",
+   "ms": "Body_ms_1k.png"
+  },
+  {
+   "name": "Optics",
+   "mode": "opaque",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Optics_base_1k.jpg"
+  },
+  {
+   "name": "Glass",
+   "mode": "glass",
+   "color": [
+    0.10588236153125763,
+    0.10588236153125763,
+    0.10588236153125763,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844
+  },
+  {
+   "name": "Wheel",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Wheel_base_1k.jpg",
+   "ms": "Wheel_ms_1k.png"
+  }
+ ]
+}

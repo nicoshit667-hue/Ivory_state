@@ -1,0 +1,16 @@
+{
+    "name": "IvoryState.Core",
+    "rootNamespace": "IvoryState.Core",
+    "references": [
+        "FishNet.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

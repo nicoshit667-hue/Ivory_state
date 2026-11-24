@@ -1,0 +1,18 @@
+{
+ "id": "camion_militaire",
+ "materials": [
+  {
+   "name": "Ural",
+   "mode": "opaque",
+   "color": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.10540902614593506,
+   "base": "Ural_base_1k.jpg"
+  }
+ ]
+}

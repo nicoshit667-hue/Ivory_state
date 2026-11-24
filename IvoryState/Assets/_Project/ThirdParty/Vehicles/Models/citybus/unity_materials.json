@@ -1,0 +1,76 @@
+{
+ "id": "citybus",
+ "materials": [
+  {
+   "name": "citybus",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "citybus_base_1k.jpg",
+   "normal": "citybus_normal_1k.jpg",
+   "ms": "citybus_ms_1k.png"
+  },
+  {
+   "name": "CityBus_optics",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 1.0,
+   "base": "CityBus_optics_base_1k.jpg"
+  },
+  {
+   "name": "CityBus_decals",
+   "mode": "cutout",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "CityBus_decals_base_1k.png"
+  },
+  {
+   "name": "citybus_glass",
+   "mode": "glass",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "citybus_glass_base_1k.png",
+   "normal": "citybus_glass_normal_1k.jpg",
+   "ms": "citybus_glass_ms_1k.png"
+  },
+  {
+   "name": "citybus_glass.001",
+   "mode": "glass",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.5656854212284088,
+   "base": "citybus_glass_001_base_1k.png",
+   "normal": "citybus_glass_001_normal_1k.jpg",
+   "ms": "citybus_glass_001_ms_1k.png"
+  }
+ ]
+}

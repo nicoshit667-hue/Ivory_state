@@ -1,0 +1,17 @@
+{
+    "name": "IvoryState.Gameplay",
+    "rootNamespace": "IvoryState.Gameplay",
+    "references": [
+        "IvoryState.Core",
+        "FishNet.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

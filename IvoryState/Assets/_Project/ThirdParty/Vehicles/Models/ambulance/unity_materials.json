@@ -1,0 +1,61 @@
+{
+ "id": "ambulance",
+ "materials": [
+  {
+   "name": "ambulance",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "ambulance_base_1k.jpg",
+   "normal": "ambulance_normal_1k.jpg",
+   "ms": "ambulance_ms_1k.png"
+  },
+  {
+   "name": "decals_tex",
+   "mode": "cutout",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "decals_tex_base_1k.png"
+  },
+  {
+   "name": "optics_tex",
+   "mode": "opaque",
+   "color": [
+    0.5882353186607361,
+    0.5882353186607361,
+    0.5882353186607361,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 1.0,
+   "base": "optics_tex_base_1k.jpg"
+  },
+  {
+   "name": "glass_tex",
+   "mode": "glass",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.31383365392684937,
+   "base": "glass_tex_base_1k.png",
+   "normal": "glass_tex_normal_1k.jpg",
+   "ms": "glass_tex_ms_1k.png"
+  }
+ ]
+}

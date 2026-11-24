@@ -1,0 +1,58 @@
+{
+ "id": "minivan",
+ "materials": [
+  {
+   "name": "Body.003",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Body_003_base_1k.jpg",
+   "ms": "Body_003_ms_1k.png"
+  },
+  {
+   "name": "Optics.003",
+   "mode": "opaque",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Optics_003_base_1k.jpg"
+  },
+  {
+   "name": "Glass.003",
+   "mode": "glass",
+   "color": [
+    0.10588236153125763,
+    0.10588236153125763,
+    0.10588236153125763,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844
+  },
+  {
+   "name": "Wheel.002",
+   "mode": "opaque",
+   "color": [
+    0.5879999995231628,
+    0.5879999995231628,
+    0.5879999995231628,
+    1.0
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.141421377658844,
+   "base": "Wheel_002_base_1k.jpg",
+   "ms": "Wheel_002_ms_1k.png"
+  }
+ ]
+}

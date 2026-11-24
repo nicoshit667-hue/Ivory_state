@@ -1,0 +1,20 @@
+{
+ "id": "trottinette",
+ "materials": [
+  {
+   "name": "ElectricScooter",
+   "mode": "opaque",
+   "color": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "base": "ElectricScooter_base_1k.jpg",
+   "normal": "ElectricScooter_normal_1k.jpg",
+   "ms": "ElectricScooter_ms_1k.png"
+  }
+ ]
+}

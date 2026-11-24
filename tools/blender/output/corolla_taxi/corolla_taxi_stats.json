@@ -1,0 +1,197 @@
+{
+  "lod0": {
+    "total_tris": 12040,
+    "total_verts": 6785,
+    "materials": [
+      "M_Carrosserie",
+      "M_Chrome",
+      "M_Clignotants",
+      "M_FeuRecul",
+      "M_Feux",
+      "M_Frein",
+      "M_Jante_Tole",
+      "M_Lumignon",
+      "M_Lumignon_Cadre",
+      "M_Phares",
+      "M_Plaques",
+      "M_Plastiques",
+      "M_Plastiques_Sombre",
+      "M_Pneu",
+      "M_Vitres"
+    ],
+    "material_count": 15,
+    "dimensions_m": [
+      1.938,
+      4.311,
+      1.427
+    ],
+    "min_z": 0.0046,
+    "parts": [
+      [
+        "Carrosserie",
+        5008,
+        1
+      ],
+      [
+        "Chrome",
+        204,
+        1
+      ],
+      [
+        "Clignotants",
+        240,
+        1
+      ],
+      [
+        "Feux",
+        128,
+        2
+      ],
+      [
+        "Interieur",
+        592,
+        1
+      ],
+      [
+        "Lumignon",
+        120,
+        2
+      ],
+      [
+        "Phares",
+        40,
+        1
+      ],
+      [
+        "Plaques",
+        44,
+        1
+      ],
+      [
+        "Plastiques",
+        2548,
+        2
+      ],
+      [
+        "Roue_FL",
+        740,
+        3
+      ],
+      [
+        "Roue_FR",
+        740,
+        3
+      ],
+      [
+        "Roue_RL",
+        740,
+        3
+      ],
+      [
+        "Roue_RR",
+        740,
+        3
+      ],
+      [
+        "Vitres",
+        156,
+        1
+      ]
+    ]
+  },
+  "lod1": {
+    "total_tris": 4983,
+    "total_verts": 3096,
+    "materials": [
+      "M_Carrosserie",
+      "M_Chrome",
+      "M_Clignotants",
+      "M_FeuRecul",
+      "M_Feux",
+      "M_Frein",
+      "M_Jante_Tole",
+      "M_Lumignon",
+      "M_Lumignon_Cadre",
+      "M_Phares",
+      "M_Plaques",
+      "M_Plastiques",
+      "M_Plastiques_Sombre",
+      "M_Pneu",
+      "M_Vitres"
+    ],
+    "material_count": 15,
+    "dimensions_m": [
+      1.931,
+      4.309,
+      1.427
+    ],
+    "min_z": 0.0046,
+    "parts": [
+      [
+        "Carrosserie.001",
+        2003,
+        1
+      ],
+      [
+        "Chrome.001",
+        204,
+        1
+      ],
+      [
+        "Clignotants.001",
+        92,
+        1
+      ],
+      [
+        "Feux.001",
+        128,
+        2
+      ],
+      [
+        "Lumignon.001",
+        120,
+        2
+      ],
+      [
+        "Phares.001",
+        40,
+        1
+      ],
+      [
+        "Plaques.001",
+        44,
+        1
+      ],
+      [
+        "Plastiques.001",
+        1012,
+        2
+      ],
+      [
+        "Roue_FL.001",
+        296,
+        3
+      ],
+      [
+        "Roue_FR.001",
+        296,
+        3
+      ],
+      [
+        "Roue_RL.001",
+        296,
+        3
+      ],
+      [
+        "Roue_RR.001",
+        296,
+        3
+      ],
+      [
+        "Vitres.001",
+        156,
+        1
+      ]
+    ]
+  }
+}

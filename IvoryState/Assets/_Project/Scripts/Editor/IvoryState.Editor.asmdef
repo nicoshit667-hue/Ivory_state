@@ -1,0 +1,26 @@
+{
+    "name": "IvoryState.Editor",
+    "rootNamespace": "IvoryState.Editor",
+    "references": [
+        "IvoryState.Core",
+        "IvoryState.Gameplay",
+        "IvoryState.Client",
+        "FishNet.Runtime",
+        "UnityEngine.UI",
+        "Unity.AI.Navigation",
+        "Unity.InputSystem",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

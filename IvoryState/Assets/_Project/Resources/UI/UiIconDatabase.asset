@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aa39aba3ab50d44f91a6f2ed2f33cc6, type: 3}
+  m_Name: UiIconDatabase
+  m_EditorClassIdentifier: IvoryState.Client::IvoryState.Client.UI.UiIconDatabase
+  TaxiAppIcon: {fileID: 21300000, guid: 01a9a0e4c97808841b4ffaeb9e1e3daa, type: 3}
+  CommerceAppIcon: {fileID: 21300000, guid: 62da2a649e4504d419b91a8f4423d3cc, type: 3}
+  Consumables:
+  - Key: alloco
+    Sprite: {fileID: 21300000, guid: 5d1b6444c87bcc048bf349665482858a, type: 3}
+  - Key: apf_attieke_poisson_frit
+    Sprite: {fileID: 21300000, guid: 5d8b2d917cdf2c540898b9db2f6a4d93, type: 3}
+  - Key: banane
+    Sprite: {fileID: 21300000, guid: 08e924a12e1525a4ea95452ecc9c6eb6, type: 3}
+  - Key: barre_chocolat
+    Sprite: {fileID: 21300000, guid: a2356504f799d3d42a994b5267626588, type: 3}
+  - Key: biere_b66
+    Sprite: {fileID: 21300000, guid: 602d3b795dfad7347864a41464b18e28, type: 3}
+  - Key: biere_bressos
+    Sprite: {fileID: 21300000, guid: 6fb43f19d0da6b342b7733a0d8da3e93, type: 3}
+  - Key: biere_despey
+    Sprite: {fileID: 21300000, guid: e93b18ab37b368b44ab4fc0d4b5e3afa, type: 3}
+  - Key: cafe_cola
+    Sprite: {fileID: 21300000, guid: f757661d68b5ba24ca3eb8ebe09f7cee, type: 3}
+  - Key: cafe_emporter
+    Sprite: {fileID: 21300000, guid: 1a0b3db1496b492488cf59fb312360a3, type: 3}
+  - Key: chips_alloco
+    Sprite: {fileID: 21300000, guid: 4220cc7eeb3bcbd4b9b4f2b5bdbe065a, type: 3}
+  - Key: coco
+    Sprite: {fileID: 21300000, guid: 835f5184c68cee74e80862cea8916280, type: 3}
+  - Key: degue_yaourt
+    Sprite: {fileID: 21300000, guid: 18d6bfb05c3699e44aec85016aa0e912, type: 3}
+  - Key: eau_dji
+    Sprite: {fileID: 21300000, guid: 5e28b9131eb05624597351156b3afb71, type: 3}
+  - Key: fastfood_burger_menu
+    Sprite: {fileID: 21300000, guid: 67684a41d2e637840bee2d9c450cc351, type: 3}
+  - Key: fastfood_club_menu
+    Sprite: {fileID: 21300000, guid: e3117b5f9d416ca4fbf3493ce12eec66, type: 3}
+  - Key: fastfood_pizza_menu
+    Sprite: {fileID: 21300000, guid: 64c4fb2a02776f847aba7fa322634ab8, type: 3}
+  - Key: fastfood_tacos_menu
+    Sprite: {fileID: 21300000, guid: 19f1e17c449fe3b409200d6b3aff037d, type: 3}
+  - Key: fastfood_tenders_menu
+    Sprite: {fileID: 21300000, guid: 34c0de9aebeae884d8644f1b15d3fce4, type: 3}
+  - Key: foutou
+    Sprite: {fileID: 21300000, guid: e22ac116b3f98fc44921881d365d5fec, type: 3}
+  - Key: garba
+    Sprite: {fileID: 21300000, guid: 706a13afa98185942832b8963f7f72e8, type: 3}
+  - Key: gateau_chocolat
+    Sprite: {fileID: 21300000, guid: 8a085413381fa3948b686cf2a2b19f8c, type: 3}
+  - Key: gbele
+    Sprite: {fileID: 21300000, guid: 356ac06e16fc2cd4994dd6bdd1deb02c, type: 3}
+  - Key: gbofloto
+    Sprite: {fileID: 21300000, guid: 828a0cc4eabbee048a6daf51c788bebf, type: 3}
+  - Key: goyave
+    Sprite: {fileID: 21300000, guid: 4a7f3587bd0e603488db62f29f93fecd, type: 3}
+  - Key: jus_sangya
+    Sprite: {fileID: 21300000, guid: d2336732e10ade6449225be273e030ee, type: 3}
+  - Key: kit_medical_bleu
+    Sprite: {fileID: 21300000, guid: 2450dae70684afa43980940119c965fd, type: 3}
+  - Key: kit_medical_rouge
+    Sprite: {fileID: 21300000, guid: 76d86e6446d74ca4ba962ea72fe5d9b8, type: 3}
+  - Key: kit_medical_vert
+    Sprite: {fileID: 21300000, guid: f0190df3495915348a1c38d907e58a0e, type: 3}
+  - Key: kope
+    Sprite: {fileID: 21300000, guid: 2c23964a353124d4d90a7817f37a4084, type: 3}
+  - Key: koutoukou
+    Sprite: {fileID: 21300000, guid: fcfede55272680a4d9cc5601531dffd1, type: 3}
+  - Key: lasagnes
+    Sprite: {fileID: 21300000, guid: 39118c26795e6d742a76c92334f3f3dd, type: 3}
+  - Key: liqueur_4_heures
+    Sprite: {fileID: 21300000, guid: 1290b0996f099a841a98b99b28162de2, type: 3}
+  - Key: mais_braise
+    Sprite: {fileID: 21300000, guid: 7c7ed7d478a71c24e923f2707a738ac4, type: 3}
+  - Key: orange
+    Sprite: {fileID: 21300000, guid: 28e8cb9366ba3ae4095a32a5daa60b9d, type: 3}
+  - Key: pain
+    Sprite: {fileID: 21300000, guid: bb7799bf30eb1b34e8af0d406e3a99c7, type: 3}
+  - Key: pain_au_chocolat
+    Sprite: {fileID: 21300000, guid: 3009344507c00974d8f924127d148f60, type: 3}
+  - Key: pain_chien
+    Sprite: {fileID: 21300000, guid: 6ff20af3d7b844a4faaabf9ed2d6769d, type: 3}
+  - Key: panini
+    Sprite: {fileID: 21300000, guid: 2ded9186701f7ab4687f8e5d319c120d, type: 3}
+  - Key: porcodjo
+    Sprite: {fileID: 21300000, guid: 75113a7dcbbc28e44b5dde580f1a3e8b, type: 3}
+  - Key: soda_fantou
+    Sprite: {fileID: 21300000, guid: 58245d2b4a5339e4e88d784694a2559a, type: 3}
+  - Key: spaghetti
+    Sprite: {fileID: 21300000, guid: b47428343a214e4468292accdd4a6c6f, type: 3}
+  - Key: tchep_poisson
+    Sprite: {fileID: 21300000, guid: b72f66eac2528844d9f52a9d3e6d8656, type: 3}
+  - Key: tchep_poulet
+    Sprite: {fileID: 21300000, guid: 86fdc8501b521b443bc8354cfa1b6cd9, type: 3}
+  - Key: vin_divin
+    Sprite: {fileID: 21300000, guid: 5d968fe3d7e33674585131aca12213c6, type: 3}
+  - Key: vin_saint_bouake
+    Sprite: {fileID: 21300000, guid: 3864b051a3ceb9546a1d01b98c5e9d96, type: 3}
+  ProfileIcons:
+  - Key: icon_civil
+    Sprite: {fileID: 21300000, guid: 74a8ddd89d08f254e9ef3cf60c86e00c, type: 3}
+  - Key: icon_commerce
+    Sprite: {fileID: 21300000, guid: 62da2a649e4504d419b91a8f4423d3cc, type: 3}
+  - Key: icon_eye_closed
+    Sprite: {fileID: 21300000, guid: d881759f9ffcd584a8f81598d4e96791, type: 3}
+  - Key: icon_eye_open
+    Sprite: {fileID: 21300000, guid: 3fb60c1c4813a5542a528ce68433927f, type: 3}
+  - Key: icon_gouvernement
+    Sprite: {fileID: 21300000, guid: 8995bb4524b48a040a6d2505f97f4137, type: 3}
+  - Key: icon_lock
+    Sprite: {fileID: 21300000, guid: 0533b0a319b271c4e8caec42ec9c21bc, type: 3}
+  - Key: icon_mairie
+    Sprite: {fileID: 21300000, guid: b1da9b6f157da4d469bb27f149774653, type: 3}
+  - Key: icon_maison
+    Sprite: {fileID: 21300000, guid: a1414abd0dc40d046a110c2b6b673dfe, type: 3}
+  - Key: icon_medecin
+    Sprite: {fileID: 21300000, guid: 5b74a41021455044ba4169494e262df1, type: 3}
+  - Key: icon_militaire
+    Sprite: {fileID: 21300000, guid: 0fab67f31e431ae49bcd7ae6fa2dfe2b, type: 3}
+  - Key: icon_police
+    Sprite: {fileID: 21300000, guid: 392aef8bdadb19440a25ad7f38414ac5, type: 3}
+  - Key: icon_residence_pin
+    Sprite: {fileID: 21300000, guid: 8d0ea1192bac5f5489e951ae2737f588, type: 3}
+  - Key: icon_taxi
+    Sprite: {fileID: 21300000, guid: 263995fd86e1e5b46bd9a20b40a4bd25, type: 3}
+  - Key: icon_voiture
+    Sprite: {fileID: 21300000, guid: 4b5e4e0126b65a040bbe5a1ad8585337, type: 3}
+  ProfileBackgrounds:
+  - Key: bg_civil_slate
+    Sprite: {fileID: 21300000, guid: 36a1fc4f5e51a4943860c80b28d17d5c, type: 3}
+  - Key: bg_gouvernement_obsidian
+    Sprite: {fileID: 21300000, guid: db3452e77377fb344a3e776101da51c2, type: 3}
+  - Key: bg_mairie_navy
+    Sprite: {fileID: 21300000, guid: 57c0b283bd2a8d14783905a6a35e69e0, type: 3}
+  - Key: bg_medecin_emerald_ecg
+    Sprite: {fileID: 21300000, guid: e3974cf13e5dfc84684cfebdbfaba663, type: 3}
+  - Key: bg_militaire_camo
+    Sprite: {fileID: 21300000, guid: 7f7c4dad2ebeaa3499884093c8844cbf, type: 3}
+  - Key: bg_police_tactical
+    Sprite: {fileID: 21300000, guid: f19418db01ce67b4ba84a3a862bc9b4c, type: 3}

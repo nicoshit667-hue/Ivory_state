@@ -1,0 +1,22 @@
+{
+    "name": "IvoryState.Client",
+    "rootNamespace": "IvoryState.Client",
+    "references": [
+        "IvoryState.Core",
+        "IvoryState.Gameplay",
+        "FishNet.Runtime",
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
